@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">CyberNova terminal demonstration</title>
+  <desc id="desc">A terminal showing the CyberNova interactive menu and password analysis</desc>
+  <defs>
+    <linearGradient id="frame" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8b5cf6"/><stop offset="0.5" stop-color="#22d3ee"/><stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+  <rect width="960" height="500" rx="24" fill="#060713"/>
+  <rect x="2" y="2" width="956" height="496" rx="22" fill="none" stroke="url(#frame)" stroke-width="4" opacity="0.85"/>
+  <path d="M2 58h956" stroke="#334155" stroke-width="2"/>
+  <circle cx="30" cy="30" r="7" fill="#fb7185"/>
+  <circle cx="54" cy="30" r="7" fill="#facc15"/>
+  <circle cx="78" cy="30" r="7" fill="#4ade80"/>
+  <text x="480" y="37" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, sans-serif" font-size="16">cybernova — terminal</text>
+  <g font-family="Cascadia Code, Consolas, monospace" font-size="18">
+    <text x="32" y="96" fill="#22d3ee">$ cybernova</text>
+    <text x="32" y="132" fill="#a855f7" font-weight="700">CYBERNOVA LAB</text>
+    <text x="32" y="164" fill="#cbd5e1">Choose a mission:</text>
+    <text x="52" y="198" fill="#f8fafc">1. Password strength check</text>
+    <text x="52" y="228" fill="#f8fafc">2. Cybersecurity quiz</text>
+    <text x="52" y="258" fill="#f8fafc">3. View learning log</text>
+    <text x="52" y="288" fill="#f8fafc">4. Show all commands</text>
+    <text x="32" y="336" fill="#22d3ee">Mission number:</text><text x="224" y="336" fill="#f8fafc">1</text>
+    <text x="32" y="374" fill="#94a3b8">Password (hidden): ••••••••••••••••</text>
+    <text x="32" y="416" fill="#cbd5e1">Strength:</text><text x="146" y="416" fill="#34d399" font-weight="700">Excellent (5/5)</text>
+    <text x="32" y="454" fill="#34d399">✓</text><text x="62" y="454" fill="#cbd5e1">Checked locally. Nothing was transmitted.</text>
+  </g>
+</svg>
+

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">CyberNova Lab</title>
+  <desc id="desc">Neon cybersecurity banner with a shield and orbit motif</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#060713"/>
+      <stop offset="0.55" stop-color="#10153a"/>
+      <stop offset="1" stop-color="#061b24"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a855f7"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#67e8f9" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1030" cy="55" r="180" fill="#7c3aed" opacity="0.08"/>
+  <circle cx="80" cy="330" r="150" fill="#06b6d4" opacity="0.08"/>
+
+  <g transform="translate(115 68)" filter="url(#glow)">
+    <path d="M112 0 204 34v69c0 67-42 106-92 130-50-24-92-63-92-130V34Z" fill="#0b102a" stroke="url(#neon)" stroke-width="6"/>
+    <path d="M112 28 176 52v52c0 46-27 75-64 96-37-21-64-50-64-96V52Z" fill="none" stroke="#22d3ee" stroke-opacity="0.55" stroke-width="2"/>
+    <circle cx="112" cy="104" r="26" fill="none" stroke="#a855f7" stroke-width="5"/>
+    <path d="M112 130v34M96 164h32" stroke="#34d399" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="112" cy="104" rx="92" ry="32" transform="rotate(-18 112 104)" fill="none" stroke="#67e8f9" stroke-width="2" stroke-dasharray="7 8" opacity="0.75"/>
+    <circle cx="198" cy="74" r="7" fill="#f0abfc"/>
+  </g>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif">
+    <text x="400" y="148" fill="#f8fafc" font-size="74" font-weight="800" letter-spacing="2">CYBERNOVA</text>
+    <text x="405" y="206" fill="url(#neon)" font-size="34" font-weight="700" letter-spacing="12">LAB</text>
+    <text x="405" y="261" fill="#a5b4fc" font-size="21" letter-spacing="1">LEARN  •  BUILD  •  DEFEND  •  SHARE</text>
+    <rect x="405" y="285" width="474" height="3" rx="1.5" fill="url(#neon)" opacity="0.7"/>
+  </g>
+  <circle cx="1120" cy="300" r="4" fill="#34d399"/>
+  <circle cx="1098" cy="300" r="4" fill="#22d3ee"/>
+  <circle cx="1076" cy="300" r="4" fill="#a855f7"/>
+</svg>
+
