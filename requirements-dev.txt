@@ -2,5 +2,5 @@
 # Optional tools for contributors:
 build>=1.2
 coverage>=7.6
-ruff>=0.8
+ruff>=0.16.9
 
