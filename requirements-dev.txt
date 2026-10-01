@@ -1,6 +1,6 @@
 # CyberNova has no runtime dependencies.
 # Optional tools for contributors:
 build>=1.2
-coverage>=7.6
+coverage>=7.16.2
 ruff>=0.8
 
